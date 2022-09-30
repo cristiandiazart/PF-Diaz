@@ -59,6 +59,7 @@ a {
   width: 800px;
   position: absolute;
   left: 900px;
+
 }
 
 .main__content__searchbar {
@@ -466,9 +467,9 @@ padding-top: 102px;
 }
 
 /* --comienzo de estilos hospedajes-- */
-*{
-  padding: 0;
-  margin: 0;
+
+.main__header__nav{
+  color: white;
 }
 .main__stays__cards{
   display: grid;
@@ -483,6 +484,18 @@ padding-top: 102px;
   color: white;
 }
 
+.carousel__slider{
+  padding-top: 150px;
+  max-width: 1500px;
+  position: relative;
+}
+
+.slider{
+  position: absolute;
+  width: 750px;
+  left: 636px;
+}
+
 /* --comienzo de estilos registrarse--  */
 
 .sign__up__box{
@@ -492,4 +505,23 @@ padding-top: 102px;
   height: 700px;
   justify-content: center;
   align-items: center;
+  
+}
+
+.stays__cards{
+  width: 700px;
+  height: 200px;
+}
+
+
+/* --comienzo de estilos paquetes--  */
+
+.carousel__paquetes{
+  padding-top: 100px;
+}
+
+/* --comienzo de estilos paquetes--  */
+.fly__cards{
+  width: 800pX;
+  padding-top: 100px;
 }
