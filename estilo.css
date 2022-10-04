@@ -3,35 +3,30 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
-  
-  
+
+
 }
 
 body {
-  min-width: 100vw;
-  max-width: 100vh;
   background-image: url(./imagenes/imagenheader3.png);
-  background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
-
-width: 200px;  
-
+  background-size: 100%;
 }
-
 
 a {
   text-decoration: none;
   color: white;
 }
+
 .main__header__logo {
   padding: 25px 40px;
 }
+
 .main__content__title__img {
   height: 150px;
   padding: 30px 100px;
   padding-left: 150px;
-} 
+}
 
 .main__header ul li {
   font-size: 20px;
@@ -42,35 +37,35 @@ a {
 }
 
 
-.main__header{
+.main__header {
   display: flex;
 
   width: 100%;
 }
 
-.main__header__nav{
-  display: flex; 
+.main__header__nav {
+  display: flex;
   list-style-type: none;
-  justify-content: space-around;  
+  justify-content: space-around;
 
 }
 
-.main__header nav{
+.main__header nav {
   width: 800px;
   position: absolute;
   left: 900px;
-
 }
 
 .main__content__searchbar {
 
   display: flex;
   flex-direction: row;
-  justify-content: center;   
-  
+  justify-content: center;
+
 
 }
-.main__content__searchbar input{
+
+.main__content__searchbar input {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   font-size: 15px;
@@ -88,35 +83,35 @@ a {
   position: relative;
 }
 
-.main__content__searchbar__btn button{
-  position: absolute;  
+.main__content__searchbar__btn button {
+  position: absolute;
   font-family: Arial, Helvetica, sans-serif;
-  color:#1B4E7A;
+  color: #1B4E7A;
   height: 44.22px;
   border-radius: 16.8161px;
   width: 154.5px;
   background: #FFFFFF;
   border-radius: 33.6323px;
   outline: none;
-  border: 0px;
+      border: 0px;
   left: 1381px;
-  top: 273px;
+  top: 251px;
 }
 
-.main__content__categorias__title{
+.main__content__categorias__title {
   padding: 80px 0 80px 150px;
 }
 
-.main__content__categorias__destinations{
+.main__content__categorias__destinations {
   color: white;
   font-size: 35px;
   padding: 80px 0 80px 2px;
 }
 
-.main__content__categorias__links__ul{
+.main__content__categorias__links__ul {
   display: flex;
   list-style-type: none;
-justify-content: right;
+  justify-content: right;
   width: 90%;
   padding-left: 85px;
 
@@ -126,39 +121,42 @@ justify-content: right;
   color: white;
   font-size: 35px;
 
-} 
-.top__vacacion__destinations{
-
-  padding-left: 150px; 
-  width: 90%; 
 }
 
-.main__content__categorias ul li{
+.top__vacacion__destinations {
+
+  padding-left: 150px;
+  width: 90%;
+}
+
+.main__content__categorias ul li {
 
   width: 9.5%;
   flex-direction: row;
 }
 
-.top__vacacion__destinations__wrapper{
+.top__vacacion__destinations__wrapper {
   display: flex;
   justify-content: space-around;
-  /* width: 80%; */
+
 }
 
-.top__vacacion__destinations__wrapper__img1{
+.top__vacacion__destinations__wrapper__img1 {
   width: 380px;
   height: 250px;
 }
 
-.top__vacacion__destinations__wrapper__img2{
+.top__vacacion__destinations__wrapper__img2 {
   width: 380px;
   height: 250px;
 }
-.top__vacacion__destinations__wrapper__img3{
+
+.top__vacacion__destinations__wrapper__img3 {
   width: 380px;
   height: 250px;
 }
-.top__vacacion__destinations__wrapper__img4{
+
+.top__vacacion__destinations__wrapper__img4 {
   width: 380px;
   height: 250px;
 }
@@ -171,109 +169,117 @@ justify-content: right;
   padding: 30px 30px 35px 150px;
 }
 
-.main__content__offers{
+.main__content__offers {
 
   width: 100%;
   max-width: 947px;
-
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
-.main__content__offers__cards{
+.main__content__offers__cards {
   display: flex;
   width: 1780px;
-  padding-left: 150px;
+  /* padding-left: 150px; */
 }
 
 
-.main__content__offers__cards1{
+.main__content__offers__cards1 {
   width: 792px;
   height: 291px;
   margin: 20px;
   border-radius: 22.3px;
   overflow: hidden;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
 
 }
-.main__content__offers__img1{
+
+.main__content__offers__img1 {
   padding-left: 20px;
   padding-top: 20px;
   border-radius: 20px;
 }
 
-.main__content__offers__img1 img{
+.main__content__offers__img1 img {
   height: 250px;
   border-radius: 22.3px;
-}  
+}
 
 
-.main__content__offers__cards_text1{
+.main__content__offers__cards_text1 {
 
-left: 437px;
-bottom: 250px;
-position: relative;
-left: 437px;
-bottom: 250px;
+  left: 437px;
+  bottom: 250px;
+  position: relative;
+  left: 437px;
+  bottom: 250px;
 
 }
-.main__content__offers__cards2{
+
+
+.main__content__offers__cards2 {
   width: 792px;
   height: 291px;
   margin: 20px;
   border-radius: 22.3px;
   overflow: hidden;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   cursor: default;
 
   left: 952px;
   top: 108px;
 
 }
-.main__content__offers__img2{
+
+
+.main__content__offers__img2 {
   padding-left: 20px;
   padding-top: 20px;
 
 }
 
-.main__content__offers__img2 img{
+.main__content__offers__img2 img {
   height: 250px;
   border-radius: 22.3px;
-}  
+}
 
 
-.main__content__offers__cards_text2{
-position: relative;
-left: 437px;
-bottom: 250px;
+.main__content__offers__cards_text2 {
+  position: relative;
+  left: 437px;
+  bottom: 250px;
 
 }
 
 
-.main__content__offers__link1{
+.main__content__offers__link1 {
   background-color: #2659C3;
   padding: 20px 45px 20px 45px;
   border-radius: 20px;
   position: relative;
-  top:  100px;
+  top: 100px;
+
+
 }
 
-.main__content__offers__cards_paragraph{
+.main__content__offers__cards_paragraph {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.main__content__offers__cards_paragraph__body{
+.main__content__offers__cards_paragraph__body {
   font-size: 19px;
 }
 
 .main__content__plains {
   height: 543.89px;
-  /* width: 1900px; */
+
   background-image: url(./imagenes/plains\ fondo.png);
   background-position: center;
   background-repeat: no-repeat;
-background-position: 42%;
-margin: 0px;
+  background-position: 42%;
+  margin: 0px;
 }
 
 
@@ -284,12 +290,14 @@ margin: 0px;
   color: white;
 
 }
-.main__content__plains__learn{
-background-color:  rgba(234, 122, 42, 0.7);
+
+
+.main__content__plains__learn {
+  background-color: rgba(234, 122, 42, 0.7);
   padding: 20px 45px 20px 45px;
   border-radius: 20px;
   position: relative;
-  top:  100px;
+  top: 100px;
   left: 500px;
 }
 
@@ -299,81 +307,88 @@ background-color:  rgba(234, 122, 42, 0.7);
   width: 1600px;
   color: black;
   font-size: 25px;
-  padding: 50px 30px 35px 50px;
+  padding: 80px 30px 80px 150px;
 }
 
-.main__content__connect{
+.main__content__connect {
   display: flex;
   width: 100%;
   justify-content: space-around;
-  
+  padding-bottom: 80px;
 }
 
-.main__content__connect__card1{
+.main__content__connect__card1 {
   width: 470.91px;
-height: 472.53px;
-left: 1151.12px;
-top: 0px;
+  height: 472.53px;
+  left: 1151.12px;
+  top: 0px;
 
-background: #FFFFFF;
-box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-border-radius: 22.031px;
-padding-left: 15px;
-padding-top: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
+  border-radius: 22.031px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
-.main__content__connect__card2{
+.main__content__connect__card2 {
   width: 470.91px;
-height: 472.53px;
-left: 1151.12px;
-top: 0px;
+  height: 472.53px;
+  left: 1151.12px;
+  top: 0px;
 
-background: #FFFFFF;
-box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-border-radius: 22.031px;
-padding-left: 15px;
-padding-top: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
+  border-radius: 22.031px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
-.main__content__connect__card3{
+.main__content__connect__card3 {
   width: 470.91px;
-height: 472.53px;
-left: 1151.12px;
-top: 0px;
+  height: 472.53px;
+  left: 1151.12px;
+  top: 0px;
 
-background: #FFFFFF;
-box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-border-radius: 22.031px;
-padding-left: 15px;
-padding-top: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
+  border-radius: 22.031px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 
-.mobile{
-  width: 100vw;
+
+
+
+
+
+.mobile {
+
   height: 748.69px;
   background-image: url(./imagenes/mobile\ background.png);
-background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-position: relative;
+  position: relative;
 }
 
-.mobile__phone{
-padding-left: 170px;
-padding-top: 102px;
+.mobile__phone {
+  padding-left: 170px;
+  padding-top: 102px;
 
 
 }
-.mobile__title{
-  color: white; 
+
+.mobile__title {
+  color: white;
   font-size: 60px;
-
   position: absolute;
-  padding-top: 100px;
+  left: 580px;
+  bottom: 590px;
 }
-.mobile__text{
-  color: white; 
+
+.mobile__text {
+  color: white;
   font-size: 35px;
   width: 1062px;
   height: 223px;
@@ -385,7 +400,7 @@ padding-top: 102px;
 
 }
 
-.btn__ghost{
+.btn__ghost {
   position: absolute;
   left: 593px;
   top: 400px;
@@ -398,10 +413,12 @@ padding-top: 102px;
   padding-right: 50px;
   font-weight: 700;
   background-color: rgba(255, 255, 255, 0.6);
-  transition: color 1s; background: 1s;
+  transition: color 1s;
+  background: 1s;
 
 }
-.btn__ghost2{
+
+.btn__ghost2 {
   position: absolute;
   left: 781px;
   top: 400px;
@@ -416,30 +433,53 @@ padding-top: 102px;
   background-color: transparent;
 
 }
-.btn__ghost:hover{
+
+.btn__ghost:hover {
   background-color: transparent;
 }
-.btn__ghost2:hover{
-  background-color: rgba(255, 255, 255, 0.6);
-} 
 
-.phone__number{  position: absolute;
-  top: 488px;
-  left: 592px;
+.btn__ghost2:hover {
+  background-color: rgba(255, 255, 255, 0.6);
 }
-.or{
+.mobile__phone__numerb{
+  display: flex;
+  position: absolute;
+  left: 600px;
+  top: 503px;
+}
+.mobile__phone__numerb input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 11.0155px 22.031px;
+  gap: 11.02px;
+  
+  width: 636.15px;
+  height: 80.08px;
+  
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(22.031px);
+  
+  
+  border-radius: 22.031px;
+}   
+.or {
 
   position: absolute;
   top: 404px;
   left: 1302px;
-} 
-.android{
+}
+
+.android {
 
   position: absolute;
   top: 404px;
   left: 1402px;
 }
-.ios{
+
+.ios {
 
   position: absolute;
   top: 500px;
@@ -448,14 +488,17 @@ padding-top: 102px;
 
 .footer {
   background-color: black;
-  width: 100vw;
+
+
   height: 500px;
   padding-top: 150px;
 }
+
 .footer__links {
   padding-left: 100px;
   padding-bottom: 80x;
 }
+
 .footer__social {
 
 
