@@ -21,12 +21,41 @@ a {
     height: 800px;
   }
 
-  .main__header {
+
+
+  .main__header__logo {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    margin-top: 25px;
+    height: auto;
+  }
+
+
+
+  .main__content__categorias {
+    display: none;
+  }
+
+
+
+
+  .main__content__categorias__links__ul {
+    display: none;
+
+  }
+
+
+
+
+}
+
+@media (max-width: 992px) {
+
+  body {
+    background-image: url(./imagenes/imagenheader3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .main__header__logo {
@@ -37,107 +66,39 @@ a {
     height: auto;
   }
 
-  .main__header__nav {
-    display: flex;
 
-    list-style-type: none;
-    flex-wrap: wrap;
-
-
-  }
-
-  .main__header ul li {
+  .main__content__title {
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    width: 50%;
-
-
-  }
-
-  .main__content__title__img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    padding-left: 105px;
-    padding-top: 15px;
-
-
-  }
-
-
-  .main__content__searchbar {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 15px;
-    width: 100%;
-
-
-  }
-
-  .main__content__searchbar input {
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    outline: none;
-    padding: 8.40807px 16.8161px;
-    width: 18rem;
-    height: 50px;
-    border: 0px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(16.8161px);
-    border-radius: 16.8161px;
-    position: relative;
   }
 
-  .main__content__searchbar__btn button {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    background-color: rgba(233, 231, 231, 0.3);
-    height: 32.2px;
-    border-radius: 16.8161px;
-    width: 60.5px;
-    border-radius: 33.6323px;
-    outline: none;
-    border: 0px;
-    left: 318px;
-    top: 232px;
-
+  .content__title {
+    font-size: 7vw;
+    font-weight: bold;
   }
+
+
 
   .main__content__categorias__title {
-    padding-left: 37px;
-    margin: 10px;
-  }
-
-
-
-  .main__content__categorias__links__ul {
-    display: none;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: center;
-
-
-
-  }
-
-  .main__content__categorias__title {
-    display: flex;
+    padding-left: 20px;
     color: white;
     font-size: 35px;
+  }
+
+  .main__content__categorias__links__ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
 
   }
 
   .top__vacacion__destinations__wrapper {
-    padding-left: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
   }
 
   .main__content__categorias__destinations {
@@ -163,19 +124,19 @@ a {
   .main__content__offers__title {
     color: black;
     font-size: 25px;
-    padding: 30px 30px 35px 150px;
+    padding: 30px 30px 35px 50px;
   }
 
-  ------------- .main__content__offers__cards {
+  .main__content__offers__cards {
     display: flex;
     flex-direction: column;
-
+    align-items: center;
   }
 
 
   .main__content__offers__cards1 {
     width: 457px;
-    height: 442px;
+    height: 515px;
     margin: 10px;
     border-radius: 22.3px;
     overflow: hidden;
@@ -210,13 +171,12 @@ a {
 
   .main__content__offers__cards2 {
     width: 457px;
-    height: 442px;
+    height: 515px;
     margin: 10px;
     border-radius: 22.3px;
     overflow: hidden;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
-
     left: 952px;
     top: 108px;
 
@@ -280,31 +240,31 @@ a {
 
     color: black;
     font-size: 25px;
-    padding: 10px;
+    padding-left: 50px;
   }
 
   .main__content__connect {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
   }
 
   .main__content__connect__card1 {
     width: 471px;
-    height: 355px;
+    height: 370px;
     background: #FFFFFF;
     box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
     border-radius: 22.031px;
     padding-left: 47px;
     padding-top: 15px;
+    margin-bottom: 15px;
   }
 
   .main__content__connect__card2 {
     width: 471px;
-    height: 355px;
+    height: 370px;
     left: 1151.12px;
-    top: 0px;
-
     background: #FFFFFF;
     box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
     border-radius: 22.031px;
@@ -328,14 +288,10 @@ a {
     justify-content: center;
     align-items: center;
     background-color: black;
-    width: 480px;
-
+    width: 100%;
     height: 50px;
+    margin-top: 30px;
 
-  }
-
-  .footer__links {
-    display: none;
   }
 
   .logo__footer {
@@ -347,21 +303,9 @@ a {
   .footer__social {
 
     display: flex;
-
-
-
     width: 75px;
   }
 
-}
-
-@media (max-width: 992px){
-
-  body {
-    background-image: url(./imagenes/imagenheader3.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
 
 }
 
@@ -377,10 +321,21 @@ a {
     padding: 25px 40px;
   }
 
-  .main__content__title__img {
+
+  .main__content__title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
     height: 150px;
-    padding: 30px 100px;
-    padding-left: 150px;
+    width: 100%;
+    font-size: 50px;
+
+  }
+
+  .content__title {
+    font-size: 7vw;
+    font-weight: bold;
   }
 
   .main__header ul li {
@@ -392,71 +347,23 @@ a {
   }
 
 
-  .main__header {
-    padding-top: 20px;
-    display: flex;
-
-    width: 100%;
-  }
-
-  .main__header__nav {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-
-  }
-
-  .main__header nav {
-    width: 800px;
-    position: absolute;
-    left: 900px;
-  }
-
-  .main__content__searchbar {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-
-  }
-
-  .main__content__searchbar input {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    outline: none;
-    padding: 8.40807px 16.8161px;
-    width: 1183.44px;
-    height: 63.06px;
-    border: 0px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(16.8161px);
-    border-radius: 16.8161px;
-    position: relative;
-  }
-
-  .main__content__searchbar__btn button {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1B4E7A;
-    height: 44.22px;
-    border-radius: 16.8161px;
-    width: 154.5px;
-    background: #FFFFFF;
-    border-radius: 33.6323px;
-    outline: none;
-    border: 0px;
-    left: 1381px;
-    top: 270px;
-  }
 
   .main__content__categorias__title {
     padding: 80px 0 80px 150px;
   }
+
+  .main__content__categorias__links__ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 85px;
+
+  }
+
+
+
+
 
   .main__content__categorias__destinations {
     color: white;
@@ -464,14 +371,7 @@ a {
     padding: 80px 0 80px 2px;
   }
 
-  .main__content__categorias__links__ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: right;
-    width: 90%;
-    padding-left: 85px;
 
-  }
 
   .main__content__categorias__title {
     color: white;
@@ -497,27 +397,10 @@ a {
 
   }
 
-  .top__vacacion__destinations__wrapper__img1 {
+  .top__vacacion__destinations__wrapper__img {
     width: 380px;
     height: 250px;
   }
-
-  .top__vacacion__destinations__wrapper__img2 {
-    width: 380px;
-    height: 250px;
-  }
-
-  .top__vacacion__destinations__wrapper__img3 {
-    width: 380px;
-    height: 250px;
-  }
-
-  .top__vacacion__destinations__wrapper__img4 {
-    width: 380px;
-    height: 250px;
-  }
-
-
 
   .main__content__offers__title {
     color: black;
@@ -526,21 +409,20 @@ a {
   }
 
   .main__content__offers {
-
+    
     width: 100%;
-    max-width: 947px;
     padding-top: 150px;
     padding-bottom: 150px;
   }
 
-  .main__content__offers__cards {
+  .offers__cards {
     display: flex;
-    width: 1780px;
+    width: 100%;
 
   }
 
 
-  .main__content__offers__cards1 {
+  .main__content__offers__cards {
     width: 792px;
     height: 291px;
     margin: 20px;
@@ -551,19 +433,19 @@ a {
 
   }
 
-  .main__content__offers__img1 {
+  .main__content__offers__img {
     padding-left: 20px;
     padding-top: 20px;
     border-radius: 20px;
   }
 
-  .main__content__offers__img1 img {
+  .main__content__offers__img img {
     height: 250px;
     border-radius: 22.3px;
   }
 
 
-  .main__content__offers__cards_text1 {
+  .main__content__offers__cards_text {
 
     left: 437px;
     bottom: 250px;
@@ -573,48 +455,12 @@ a {
 
   }
 
-
-  .main__content__offers__cards2 {
-    width: 792px;
-    height: 291px;
-    margin: 20px;
-    border-radius: 22.3px;
-    overflow: hidden;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    cursor: default;
-
-    left: 952px;
-    top: 108px;
-
-  }
-
-
-  .main__content__offers__img2 {
-    padding-left: 20px;
-    padding-top: 20px;
-
-  }
-
-  .main__content__offers__img2 img {
-    height: 250px;
-    border-radius: 22.3px;
-  }
-
-
-  .main__content__offers__cards_text2 {
-    position: relative;
-    left: 437px;
-    bottom: 250px;
-
-  }
-
-
-  .main__content__offers__link1 {
+  .main__content__offers__link {
     background-color: #2659C3;
     padding: 20px 45px 20px 45px;
     border-radius: 20px;
     position: relative;
-    top: 100px;
+    top: 26px;
 
 
   }
@@ -673,7 +519,7 @@ a {
     padding-bottom: 80px;
   }
 
-  .main__content__connect__card1 {
+  .main__content__connect__card {
     width: 470.91px;
     height: 472.53px;
     left: 1151.12px;
@@ -686,32 +532,7 @@ a {
     padding-top: 15px;
   }
 
-  .main__content__connect__card2 {
-    width: 470.91px;
-    height: 472.53px;
-    left: 1151.12px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-    border-radius: 22.031px;
-    padding-left: 15px;
-    padding-top: 15px;
-  }
-
-  .main__content__connect__card3 {
-    width: 470.91px;
-    height: 472.53px;
-    left: 1151.12px;
-    top: 0px;
-
-    background: #FFFFFF;
-    box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-    border-radius: 22.031px;
-    padding-left: 15px;
-    padding-top: 15px;
-  }
-
+ 
   .mobile {
 
     height: 748.69px;
@@ -849,8 +670,8 @@ a {
 
     display: flex;
     flex-wrap: nowrap;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
     width: 200px;
   }
 
