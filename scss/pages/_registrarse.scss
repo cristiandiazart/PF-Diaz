@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sign__up__box {
+    display: grid;
+    background-color: rgba(195, 192, 192, 0.7);
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stays__cards {
+    width: 700px;
+    height: 200px;
+}
