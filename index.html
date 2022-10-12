@@ -14,37 +14,42 @@
   </head>
 
   <body>
-    <header class="main__header">
-      <div class="main__header__logo">
-        <img src="./imagenes/logo.png" alt="logo" />
-      </div>
 
-      <nav class="navbar navbar-expand-md navbar-dark  bg-transparent">
-        <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent padding-1">
+        <div class="container-fluid">
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-bs-target="#menu"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >Home</a
-              >
-              <a class="nav-link" href="./hospedajes.html">Stays</a>
-              <a class="nav-link" href="./vuelos.html">Flights</a>
-              <a class="nav-link" href="./paquetes.html">Packages</a>
-              <a class="nav-link" href="./registrarse.html">Sign Up</a>
-            </div>
+
+          <!--elementos del menu colapsable-->
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto ">
+
+              <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" href="./hospedajes.html">Stays</a></li>
+              <li class="nav-item"><a class="nav-link active" href="./vuelos.html">Flights</a></li>
+              <li class="nav-item"><a class="nav-link active" href="./paquetes.html">Packages</a></li>
+              <li class="nav-item"><a class="nav-link active" href="./registrarse.html">Sign up</a></li>
+            </ul>
+
           </div>
         </div>
       </nav>
+
+    <header class="main__header">
+      <div class="main__header__logo">
+        <img src="./imagenes/logo.png" alt="logo" />
+      </div>
+
+
     </header>
 
     <!-- inicio contendido principal -->
@@ -53,7 +58,8 @@
         <h1 class="content__title">The whole world awaits.</h1>
       </div>
 
-      <nav class="navbar bg-transparent">
+      <!-- buscador -->
+      <nav class="navbar bg-transparent padding-2 buscador__nav">
         <div class="container">
           <form class="d-flex" role="search">
             <input
@@ -62,12 +68,13 @@
               placeholder="Destionations, hotels"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
+            <button class="btn btn-outline-success text-light bg-primary" type="submit">
               Search
             </button>
           </form>
         </div>
       </nav>
+          <!-- buscador -->
 
       <section class="main__content__categorias">
         <h2 class="main__content__categorias__title">Top categories</h2>
@@ -109,6 +116,9 @@
           </ul>
         </div>
       </section>
+
+
+
       <section class="top__vacacion__destinations">
         <h2 class="main__content__categorias__destinations">
           Top Vacation Destinations

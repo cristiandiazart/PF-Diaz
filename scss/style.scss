@@ -2,6 +2,7 @@
 // Include any default variable overrides here (though functions won't be available)
 $font-family-sans-serif: Arial, Helvetica, sans-serif;
 
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
@@ -11,3 +12,10 @@ $font-family-sans-serif: Arial, Helvetica, sans-serif;
 @import "./pages/paquetes";
 @import "./pages/registrarse";
 @import "./pages/vuelos";
+
+@for $i from 1 through 10 { 
+    .padding-#{$i}{
+        padding: 1rem   * $i;
+    }
+    
+}
