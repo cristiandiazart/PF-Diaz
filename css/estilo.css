@@ -8402,8 +8402,6 @@ a {
     justify-content: center;
     margin-top: 25px;
     height: auto; }
-  .buscador__nav {
-    display: none; }
   .main__content__categorias {
     display: none; }
   .main__content__categorias__links__ul {
@@ -8427,6 +8425,19 @@ a {
   .content__title {
     font-size: 7vw;
     font-weight: bold; }
+  .buscador__nav {
+    display: flex;
+    justify-content: center; }
+    .buscador__nav nav {
+      display: flex;
+      font-size: 1.2vw;
+      justify-content: center; }
+    .buscador__nav input {
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(16px);
+      border-radius: 16px;
+      width: 60vw;
+      border: none; }
   .main__content__categorias__title {
     padding-left: 20px;
     color: white;
@@ -8539,6 +8550,7 @@ a {
   body {
     background-image: url(./imagenes/imagenheader3.png);
     background-repeat: no-repeat;
+    height: 700px;
     background-size: 100%; }
   .main__header__logo {
     padding: 25px 40px; }
@@ -8547,23 +8559,31 @@ a {
     justify-content: center;
     color: white;
     font-weight: bolder;
-    height: 150px;
     width: 100%;
     font-size: 50px; }
   .content__title {
-    font-size: 7vw;
+    font-size: 3vw;
     font-weight: bold; }
   .main__header ul li {
     font-size: 20px;
     width: 14%; }
   .main__content__categorias__title {
-    padding: 80px 0 80px 150px; }
+    padding: 30px 150px; }
+  .main__content__categorias__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px; }
   .main__content__categorias__links__ul {
     display: flex;
+    height: 130px;
     list-style-type: none;
     justify-content: space-around;
-    width: 100%;
-    padding-left: 85px; }
+    align-items: center;
+    width: 80%;
+    background-color: rgba(79, 111, 164, 0.6);
+    border-radius: 22.031px;
+    box-shadow: 0px 5.50776px 22.031px rgba(210, 208, 208, 0.25); }
   .main__content__categorias__destinations {
     color: white;
     font-size: 35px;
@@ -8579,7 +8599,7 @@ a {
     flex-direction: row; }
   .top__vacacion__destinations__wrapper {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between; }
   .top__vacacion__destinations__wrapper__img {
     width: 380px;
     height: 250px; }
@@ -8593,7 +8613,8 @@ a {
     padding-bottom: 150px; }
   .offers__cards {
     display: flex;
-    width: 100%; }
+    width: 100%;
+    justify-content: center; }
   .main__content__offers__cards {
     width: 792px;
     height: 291px;
@@ -8630,9 +8651,7 @@ a {
     height: 543.89px;
     background-image: url(/imagenes/pfondo.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-position: 42%;
-    margin: 0px; }
+    background-repeat: no-repeat; }
   .main__content__plains.h2 {
     padding-top: 150px;
     padding-left: 250px;
@@ -8667,7 +8686,7 @@ a {
     padding-top: 15px; }
   .mobile {
     height: 748.69px;
-    background-image: url(./imagenes/mobile\mbackground.png);
+    background-image: url(./imagenes/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; }
@@ -8755,7 +8774,7 @@ a {
   .footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: black;
     height: 200px; }
   .footer__social {
@@ -8763,19 +8782,20 @@ a {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    width: 200px; } }
-
-nav {
-  display: flex;
-  font-size: 1.5vw;
-  justify-content: center; }
-
-.buscador__nav input {
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(16px);
-  border-radius: 16px;
-  width: 70vw;
-  border: none; }
+    width: 200px; }
+  nav {
+    display: flex;
+    font-size: 1.2vw;
+    justify-content: center; }
+  .buscador__nav {
+    display: flex;
+    justify-content: center; }
+    .buscador__nav input {
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(16px);
+      border-radius: 16px;
+      width: 70vw;
+      border: none; } }
 
 * {
   margin: 0;

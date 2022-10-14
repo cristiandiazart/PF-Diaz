@@ -24,9 +24,6 @@ a {
         height: auto;
     }
 
-    .buscador__nav{
-        display: none;
-    }
 
     .main__content__categorias {
         display: none;
@@ -46,6 +43,10 @@ a {
 }
 
 @media (max-width: 992px) {
+
+
+
+
 
     body {
         background-image: url(./imagenes/imagenheader3.png);
@@ -72,6 +73,30 @@ a {
         font-size: 7vw;
         font-weight: bold;
     }
+
+
+
+    
+    .buscador__nav{
+        display: flex;
+        justify-content: center;
+
+    nav {
+        display: flex;
+        font-size: 1.2vw;
+        justify-content: center;
+    }
+    input{
+        background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(16px);
+    border-radius: 16px;
+    width: 60vw;
+    border: none;
+    }
+    
+    }
+
+
 
 
 
@@ -258,6 +283,8 @@ a {
         width: 75px;
     }
 
+    
+    
 
 }
 
@@ -266,6 +293,7 @@ a {
     body {
         background-image: url(./imagenes/imagenheader3.png);
         background-repeat: no-repeat;
+        height: 700px;
         background-size: 100%;
     }
 
@@ -279,14 +307,13 @@ a {
         justify-content: center;
         color: white;
         font-weight: bolder;
-        height: 150px;
         width: 100%;
         font-size: 50px;
 
     }
 
     .content__title {
-        font-size: 7vw;
+        font-size: 3vw;
         font-weight: bold;
     }
 
@@ -301,15 +328,32 @@ a {
 
 
     .main__content__categorias__title {
-        padding: 80px 0 80px 150px;
+        padding: 30px 150px;
+    }
+
+    .main__content__categorias__links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+
+
+
+
     }
 
     .main__content__categorias__links__ul {
+
         display: flex;
+        height: 130px;
         list-style-type: none;
         justify-content: space-around;
-        width: 100%;
-        padding-left: 85px;
+        align-items: center;
+        width: 80%;
+        background-color:rgba(79, 111, 164, 0.6);
+        border-radius: 22.031px;
+        box-shadow: 0px 5.50776px 22.031px rgba(210, 208, 208, 0.25);
+
 
     }
 
@@ -345,7 +389,7 @@ a {
 
     .top__vacacion__destinations__wrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
 
@@ -370,6 +414,7 @@ a {
     .offers__cards {
         display: flex;
         width: 100%;
+        justify-content: center;
 
     }
 
@@ -432,8 +477,7 @@ a {
         background-image: url(/imagenes/pfondo.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-position: 42%;
-        margin: 0px;
+
     }
 
 
@@ -488,7 +532,8 @@ a {
     .mobile {
 
         height: 748.69px;
-        background-image: url(./imagenes/mobile\mbackground.png);
+        
+        background-image: url(./imagenes/background.png);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -611,7 +656,7 @@ a {
     .footer {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         background-color: black;
         height: 200px;
 
@@ -627,18 +672,26 @@ a {
         width: 200px;
     }
 
-}
-
 nav {
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     justify-content: center;
 }
 
-.buscador__nav input{
+.buscador__nav{
+    display: flex;
+    justify-content: center;
+
+input{
     background: rgba(255, 255, 255, 0.4);
 backdrop-filter: blur(16px);
 border-radius: 16px;
 width: 70vw;
 border: none;
 }
+
+}
+
+
+}
+
