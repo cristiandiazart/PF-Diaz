@@ -8810,15 +8810,34 @@ a {
 .main__header__nav {
   color: white; }
 
-.main__stays__cards {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  height: 500px;
-  justify-content: space-around;
-  align-items: center; }
-
-.main__stays__cards {
+.main__stays__principal {
   color: white; }
+
+.main__stays__principal__offers {
+  padding-left: 265px; }
+
+.special__offers__cards {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 20px;
+  margin: 15px; }
+
+.special__offers__cards1 {
+  background-image: url(./imagenes/offer1.jpeg);
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 200px;
+  border-radius: 1rem;
+  padding: 20px; }
+
+.special__offers__cards2 {
+  background-image: url(./imagenes/offer2.png);
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 200px;
+  border-radius: 1rem;
+  padding: 20px; }
 
 .carousel__slider {
   padding-top: 150px;
