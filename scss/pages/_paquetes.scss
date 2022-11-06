@@ -12,11 +12,21 @@ a {
     color: white;
 }
 
-.fly__cards {
-    width: 800pX;
-    padding-top: 100px;
+.packages__offers__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 1rem;
+
+    .card{
+        margin: 1rem;
+    }
 }
 
-.carousel__paquetes {
-    padding-top: 100px;
+.card:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
 }
+
+
