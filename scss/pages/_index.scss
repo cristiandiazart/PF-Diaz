@@ -1,4 +1,3 @@
-
 a {
     text-decoration: none;
     color: white;
@@ -38,17 +37,22 @@ a {
     }
 
 
+    .main__content__connect__card {
+        width: 90%;
+        height: 370px;
+        background: #FFFFFF;
+        box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
+        border-radius: 22.031px;
+        padding-left: 47px;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
 
 
 }
 
-@media (max-width: 992px) {
 
-
-
-
-
-    body {
+        body {
         background-image: url(./imagenes/imagenheader3.png);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -76,30 +80,29 @@ a {
 
 
 
-    
-    .buscador__nav{
+
+    .buscador__nav {
         display: flex;
         justify-content: center;
 
-    nav {
-        display: flex;
-        font-size: 1.2vw;
-        justify-content: center;
+        nav {
+            display: flex;
+            font-size: 1.2vw;
+            justify-content: center;
+        }
+
+        input {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(16px);
+            border-radius: 16px;
+            width: 60vw;
+            border: none;
+        }
+
     }
-    input{
-        background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(16px);
-    border-radius: 16px;
-    width: 60vw;
-    border: none;
-    }
-    
-    }
 
 
-
-
-
+    @media (max-width: 992px){
     .main__content__categorias__title {
         padding-left: 20px;
         color: white;
@@ -110,587 +113,583 @@ a {
         display: flex;
         list-style-type: none;
         justify-content: center;
+    }
 
 
-    }
 
-    .top__vacacion__destinations__wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        .top__vacacion__destinations__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
-    }
+        }
 
-    .main__content__categorias__destinations {
-        color: black;
-        font-size: 35px;
-        padding: 80px 0 80px 20px;
-    }
+        .top__vacacion__destinations__wrapper:hover {
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        }
 
-    .top__vacacion__destinations__wrapper__img1 {
-        display: none;
-    }
+        .main__content__categorias__destinations {
+            color: black;
+            font-size: 35px;
+            padding: 80px 0 80px 20px;
+        }
 
-    .top__vacacion__destinations__wrapper__img2 {
-        display: none;
-    }
+        .top__vacacion__destinations__wrapper__img1 {
+            display: none;
+        }
 
-    .main__content__categorias ul li {
+        .top__vacacion__destinations__wrapper__img2 {
+            display: none;
+        }
 
-        width: 30%;
-        flex-direction: row;
-    }
+        .main__content__categorias ul li {
 
-    .main__content__offers__title {
-        color: black;
-        font-size: 25px;
-        padding: 30px 30px 35px 50px;
-    }
+            width: 30%;
+            flex-direction: row;
+        }
 
+        .main__content__offers__title {
+            color: black;
+            font-size: 25px;
+            padding: 30px 30px 35px 50px;
+        }
 
 
-    .offers__cards {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
 
-    }
 
-    .main__content__offers__cards {
-        width: 521px;
-        height: 580px;
-        margin: 10px;
-        border-radius: 22.3px;
-        overflow: hidden;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: default;
+        .offers__cards {
+            display: flex;
+            flex-direction: column;
 
-    }
+            align-items: center;
 
-    .main__content__offers__img {
-        padding-left: 44px;
-        padding-top: 20px;
-        border-radius: 20px;
-    }
+        }
 
-    .main__content__offers__img1 img {
-        height: 250px;
-        border-radius: 22.3px;
-        width: 361px;
-    }
+        .main__content__offers__cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 588px;
+            margin: 10px;
+            border-radius: 22.3px;
+            overflow: hidden;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+            cursor: default;
+            text-align: center;
+        }
 
+        .main__content__offers__img {
 
-    .main__content__offers__cards_text {
+            border-radius: 20px;
+            padding: 1rem;
+        }
 
-        left: 437px;
-        bottom: 250px;
-        position: relative;
-        left: 64px;
-        bottom: 6px;
+        .main__content__offers__img1 img {
+            height: 250px;
+            border-radius: 22.3px;
+            width: 100vw;
+        }
 
-    }
 
 
 
 
-    .main__content__offers__link {
-        background-color: #2659C3;
-        padding: 20px 45px 20px 45px;
-        border-radius: 20px;
-        position: relative;
-        top: 25px;
-        left: 92px;
 
 
-    }
+        .main__content__offers__link {
 
-    .main__content__offers__cards_paragraph {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+            background-color: #2659C3;
+            padding: 20px 45px 20px 45px;
+            border-radius: 20px;
 
-    .main__content__offers__cards_paragraph__body {
-        font-size: 19px;
-    }
+            top: 25px;
+            left: 92px;
 
-    .main__content__plains {
-        display: none;
-    }
 
-    .mobile {
-        display: none;
-    }
+        }
 
+        .main__content__offers__cards_paragraph {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
 
+        .main__content__offers__cards_paragraph__body {
+            font-size: 19px;
+        }
 
-    .main__content__connect__title {
+        .main__content__plains {
+            display: none;
+        }
 
-        color: black;
-        font-size: 25px;
-        padding-left: 50px;
-    }
+        .mobile {
+            display: none;
+        }
 
-    .main__content__connect {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
 
-    }
 
-    .main__content__connect__card {
-        width: 471px;
-        height: 370px;
-        background: #FFFFFF;
-        box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-        border-radius: 22.031px;
-        padding-left: 47px;
-        padding-top: 15px;
-        margin-bottom: 15px;
-    }
+        .main__content__connect__title {
 
-    git add .android .main__content__connect__card3 {
-        display: none;
-    }
+            color: black;
+            font-size: 25px;
+            padding-left: 50px;
+        }
 
-    .main__content__connect__img img {
-        width: 380px;
-    }
+        .main__content__connect {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
 
-    .footer {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-        width: 100%;
-        height: 50px;
-        margin-top: 30px;
+        }
 
-    }
+        .main__content__connect__card {
+            width: 54%;
+            height: 370px;
+            background: #FFFFFF;
+            box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
+            border-radius: 22.031px;
+            padding-left: 47px;
+            padding-top: 15px;
+            margin-bottom: 15px;
+        }
 
-    .logo__footer {
-        display: flex;
-        margin: 10px;
+        .android .main__content__connect__card3 {
+            display: none;
+        }
 
-    }
+        .main__content__connect__img img {
+            width: 90%;
+        }
 
-    .footer__social {
 
-        display: flex;
-        width: 75px;
-    }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
 
-    
-    
+            height: 50px;
+            margin-top: 30px;
+            width: 100%;
+        }
 
-}
+        .logo__footer {
+            display: flex;
+            margin: 10px;
 
-@media (min-width: 992px) {
+        }
 
-    body {
-        background-image: url(./imagenes/imagenheader3.png);
-        background-repeat: no-repeat;
-        height: 700px;
-        background-size: 100%;
-    }
+        .footer__social {
 
-    .main__header__logo {
-        padding: 25px 40px;
+            display: flex;
+            
+        }
+
     }
 
 
-    .main__content__title {
-        display: flex;
-        justify-content: center;
-        color: white;
-        font-weight: bolder;
-        width: 100%;
-        font-size: 50px;
 
-    }
 
-    .content__title {
-        font-size: 3vw;
-        font-weight: bold;
-    }
+    @media (min-width: 992px) {
 
-    .main__header ul li {
-        font-size: 20px;
+        body {
+            background-image: url(./imagenes/imagenheader3.png);
+            background-repeat: no-repeat;
+            height: 700px;
+            background-size: 100%;
+        }
 
-        width: 14%;
+        .main__header__logo {
+            padding: 25px 40px;
+        }
 
 
-    }
+        .main__content__title {
+            display: flex;
+            justify-content: center;
+            color: white;
+            font-weight: bolder;
+            width: 100%;
+            font-size: 50px;
 
+        }
 
+        .content__title {
+            font-size: 3vw;
+            font-weight: bold;
+        }
 
-    .main__content__categorias__title {
-        padding: 30px 150px;
-    }
+        .main__header ul li {
+            font-size: 20px;
 
-    .main__content__categorias__links{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 30px;
+            width: 14%;
 
 
+        }
 
+        .buscador__nav {
+            display: flex;
+            justify-content: center;
 
-    }
+            nav {
+                display: flex;
+                font-size: 1.2vw;
+                justify-content: center;
+            }
 
-    .main__content__categorias__links__ul {
+            input {
+                background: rgba(255, 255, 255, 0.4);
+                backdrop-filter: blur(16px);
+                border-radius: 16px;
+                width: 60vw;
+                border: none;
+            }
 
-        display: flex;
-        height: 130px;
-        list-style-type: none;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        background-color:rgba(79, 111, 164, 0.6);
-        border-radius: 22.031px;
-        box-shadow: 0px 5.50776px 22.031px rgba(210, 208, 208, 0.25);
+        }
 
+        .main__content__categorias__title {
+            padding: 30px 150px;
+        }
 
-    }
+        .main__content__categorias__links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
 
 
 
 
+        }
 
-    .main__content__categorias__destinations {
-        color: white;
-        font-size: 35px;
-        padding: 80px 0 80px 2px;
-    }
+        .main__content__categorias__links__ul {
 
+            display: flex;
+            height: 130px;
+            list-style-type: none;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            background-color: rgba(79, 111, 164, 0.6);
+            border-radius: 22.031px;
+            box-shadow: 0px 5.50776px 22.031px rgba(210, 208, 208, 0.25);
 
 
-    .main__content__categorias__title {
-        color: white;
-        font-size: 35px;
+        }
 
-    }
 
-    .top__vacacion__destinations {
 
-        padding-left: 150px;
-        width: 90%;
-    }
 
-    .main__content__categorias ul li {
 
-        width: 9.5%;
-        flex-direction: row;
-    }
+        .main__content__categorias__destinations {
+            color: white;
+            font-size: 35px;
+            padding: 80px 0 80px 2px;
+        }
 
-    .top__vacacion__destinations__wrapper {
-        display: flex;
-        justify-content: space-between;
 
-    }
 
-    .top__vacacion__destinations__wrapper__img {
-        width: 380px;
-        height: 250px;
-    }
+        .main__content__categorias__title {
+            color: white;
+            font-size: 35px;
 
-    .main__content__offers__title {
-        color: black;
-        font-size: 25px;
-        padding: 30px 30px 35px 150px;
-    }
+        }
 
-    .main__content__offers {
+        .top__vacacion__destinations {
 
-        width: 100%;
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
+            padding-left: 150px;
+            width: 90%;
+        }
 
-    .offers__cards {
-        display: flex;
-        width: 100%;
-        justify-content: center;
+        .main__content__categorias ul li {
 
-    }
+            width: 9.5%;
+            flex-direction: row;
+        }
 
+        .top__vacacion__destinations__wrapper {
+            display: flex;
+            justify-content: space-between;
 
-    .main__content__offers__cards {
-        width: 792px;
-        height: 291px;
-        margin: 20px;
-        border-radius: 22.3px;
-        overflow: hidden;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-        cursor: default;
+        }
 
-    }
+        .top__vacacion__destinations__wrapper__img {
+            width: 380px;
+            height: 250px;
+        }
 
-    .main__content__offers__img {
-        padding-left: 20px;
-        padding-top: 20px;
-        border-radius: 20px;
-    }
+        .main__content__offers__title {
+            color: black;
+            font-size: 25px;
+            padding: 30px 30px 35px 150px;
+        }
 
-    .main__content__offers__img img {
-        height: 250px;
-        border-radius: 22.3px;
-    }
+        .main__content__offers {
 
+            width: 100%;
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
 
-    .main__content__offers__cards_text {
+        .offers__cards {
+            display: flex;
+            width: 100%;
+            justify-content: center;
 
-        left: 437px;
-        bottom: 250px;
-        position: relative;
-        left: 437px;
-        bottom: 250px;
+        }
 
-    }
 
-    .main__content__offers__link {
-        background-color: #2659C3;
-        padding: 20px 45px 20px 45px;
-        border-radius: 20px;
-        position: relative;
-        top: 26px;
+        .main__content__offers__cards {
+            width: 792px;
+            height: 291px;
+            margin: 20px;
+            border-radius: 22.3px;
+            overflow: hidden;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+            cursor: default;
 
+        }
 
-    }
+        .main__content__offers__img {
+            padding-left: 20px;
+            padding-top: 20px;
+            border-radius: 20px;
+        }
 
-    .main__content__offers__cards_paragraph {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+        .main__content__offers__img img {
+            height: 250px;
+            border-radius: 22.3px;
+        }
 
-    .main__content__offers__cards_paragraph__body {
-        font-size: 19px;
-    }
 
-    .main__content__plains {
-        height: 543.89px;
+        .main__content__offers__cards_text {
 
-        background-image: url(/imagenes/pfondo.png);
-        background-position: center;
-        background-repeat: no-repeat;
+            left: 437px;
+            bottom: 250px;
+            position: relative;
+            left: 437px;
+            bottom: 250px;
 
-    }
+        }
 
+        .main__content__offers__link {
+            background-color: #2659C3;
+            padding: 20px 45px 20px 45px;
+            border-radius: 20px;
+            position: relative;
+            top: 26px;
 
-    .main__content__plains.h2 {
-        padding-top: 150px;
-        padding-left: 250px;
-        font-size: 30px;
-        color: white;
 
-    }
+        }
 
+        .main__content__offers__cards_paragraph {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
 
-    .main__content__plains__learn {
-        background-color: rgba(234, 122, 42, 0.7);
-        padding: 20px 45px 20px 45px;
-        border-radius: 20px;
-        position: relative;
-        top: 100px;
-        left: 500px;
-    }
+        .main__content__offers__cards_paragraph__body {
+            font-size: 19px;
+        }
 
+        .main__content__plains {
+            height: 543.89px;
 
+            background-image: url(/imagenes/pfondo.png);
+            background-position: center;
+            background-repeat: no-repeat;
 
-    .main__content__connect__title {
+        }
 
-        color: black;
-        font-size: 25px;
-        padding: 80px 30px 80px 150px;
-    }
 
-    .main__content__connect {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        padding-bottom: 80px;
-    }
+        .main__content__plains.h2 {
+            padding-top: 150px;
+            padding-left: 250px;
+            font-size: 30px;
+            color: white;
 
-    .main__content__connect__card {
-        width: 470.91px;
-        height: 472.53px;
-        left: 1151.12px;
-        top: 0px;
-
-        background: #FFFFFF;
-        box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
-        border-radius: 22.031px;
-        padding-left: 15px;
-        padding-top: 15px;
-    }
+        }
 
 
-    .mobile {
+        .main__content__plains__learn {
+            background-color: rgba(234, 122, 42, 0.7);
+            padding: 20px 45px 20px 45px;
+            border-radius: 20px;
+            position: relative;
+            top: 100px;
+            left: 500px;
+        }
 
-        height: 748.69px;
-        
-        background-image: url(./imagenes/background.png);
-        background-repeat: no-repeat;
-        background-size: cover;
 
-        position: relative;
-    }
 
-    .mobile__phone {
-        padding-left: 170px;
-        padding-top: 102px;
+        .main__content__connect__title {
 
+            color: black;
+            font-size: 25px;
+            padding: 80px 30px 80px 150px;
+        }
 
-    }
+        .main__content__connect {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            padding-bottom: 80px;
+        }
 
-    .mobile__title {
-        color: white;
-        font-size: 60px;
-        position: absolute;
-        left: 580px;
-        bottom: 590px;
-    }
+        .main__content__connect__card {
+            width: 470.91px;
+            height: 472.53px;
+            left: 1151.12px;
+            top: 0px;
 
-    .mobile__text {
-        color: white;
-        font-size: 35px;
-        height: 223px;
-        display: inline-block;
-        position: absolute;
-        padding-top: 200px;
+            background: #FFFFFF;
+            box-shadow: 0px 5.50776px 22.031px rgba(158, 158, 158, 0.25);
+            border-radius: 22.031px;
+            padding-left: 15px;
+            padding-top: 15px;
+        }
 
-    }
 
-    .btn__ghost {
-        position: absolute;
-        left: 593px;
-        top: 400px;
-        display: inline-block;
-        border: 0.1px solid;
-        padding: 20px;
-        color: white;
-        border-radius: 50px;
-        padding-left: 45px;
-        padding-right: 50px;
-        font-weight: 700;
-        background-color: rgba(255, 255, 255, 0.6);
-        transition: color 1s;
-        background: 1s;
+        .mobile {
 
-    }
+            height: 748.69px;
 
-    .btn__ghost2 {
-        position: absolute;
-        left: 781px;
-        top: 400px;
-        display: inline-block;
-        border: 0.1px solid;
-        padding: 20px;
-        color: white;
-        border-radius: 50px;
-        padding-left: 45px;
-        padding-right: 50px;
-        font-weight: 700;
-        background-color: transparent;
+            background-image: url(./imagenes/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
 
-    }
+            position: relative;
+        }
 
-    .btn__ghost:hover {
-        background-color: transparent;
-    }
+        .mobile__phone {
+            padding-left: 170px;
+            padding-top: 102px;
 
-    .btn__ghost2:hover {
-        background-color: rgba(255, 255, 255, 0.6);
-    }
 
-    .mobile__phone__numerb {
-        display: flex;
-        position: absolute;
-        left: 600px;
-        top: 503px;
-    }
+        }
 
-    .mobile__phone__numerb input {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        color: white;
-        border: none;
-        outline: none;
-        padding: 11.0155px 22.031px;
-        gap: 11.02px;
-        width: 636.15px;
-        height: 80.08px;
-        background: rgba(255, 255, 255, 0.4);
-        backdrop-filter: blur(22.031px);
-        border-radius: 22.031px;
-    }
+        .mobile__title {
+            color: white;
+            font-size: 60px;
+            position: absolute;
+            left: 580px;
+            bottom: 590px;
+        }
 
-    .or {
+        .mobile__text {
+            color: white;
+            font-size: 35px;
+            height: 223px;
+            display: inline-block;
+            position: absolute;
+            padding-top: 200px;
 
-        position: absolute;
-        top: 404px;
-        left: 1302px;
-    }
+        }
 
-    .android {
+        .btn__ghost {
+            position: absolute;
+            left: 593px;
+            top: 400px;
+            display: inline-block;
+            border: 0.1px solid;
+            padding: 20px;
+            color: white;
+            border-radius: 50px;
+            padding-left: 45px;
+            padding-right: 50px;
+            font-weight: 700;
+            background-color: rgba(255, 255, 255, 0.6);
+            transition: color 1s;
+            background: 1s;
 
-        position: absolute;
-        top: 404px;
-        left: 1347px;
-        width: 127px;
-    }
+        }
 
-    .ios {
+        .btn__ghost2 {
+            position: absolute;
+            left: 781px;
+            top: 400px;
+            display: inline-block;
+            border: 0.1px solid;
+            padding: 20px;
+            color: white;
+            border-radius: 50px;
+            padding-left: 45px;
+            padding-right: 50px;
+            font-weight: 700;
+            background-color: transparent;
 
-        position: absolute;
-        top: 500px;
-        left: 1347px;
-        width: 127px;
-    }
+        }
 
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-color: black;
-        height: 200px;
+        .btn__ghost:hover {
+            background-color: transparent;
+        }
 
-    }
+        .btn__ghost2:hover {
+            background-color: rgba(255, 255, 255, 0.6);
+        }
 
+        .mobile__phone__numerb {
+            display: flex;
+            position: absolute;
+            left: 600px;
+            top: 503px;
+        }
 
-    .footer__social {
+        .mobile__phone__numerb input {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: white;
+            border: none;
+            outline: none;
+            padding: 11.0155px 22.031px;
+            gap: 11.02px;
+            width: 636.15px;
+            height: 80.08px;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(22.031px);
+            border-radius: 22.031px;
+        }
 
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        width: 200px;
-    }
+        .or {
+
+            position: absolute;
+            top: 404px;
+            left: 1302px;
+        }
 
-nav {
-    display: flex;
-    font-size: 1.2vw;
-    justify-content: center;
-}
+        .android {
 
-.buscador__nav{
-    display: flex;
-    justify-content: center;
+            position: absolute;
+            top: 404px;
+            left: 1347px;
+            width: 127px;
+        }
 
-input{
-    background: rgba(255, 255, 255, 0.4);
-backdrop-filter: blur(16px);
-border-radius: 16px;
-width: 70vw;
-border: none;
-}
+        .ios {
 
-}
+            position: absolute;
+            top: 500px;
+            left: 1347px;
+            width: 127px;
+        }
 
+        .footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: black;
+            height: 200px;
 
-}
+        }
 
+
+        .footer__social {
+
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+        }
+    }

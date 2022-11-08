@@ -12,17 +12,27 @@ a {
     color: white;
 }
 
+.sign__up{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+
 .sign__up__box {
     display: grid;
     background-color: rgba(195, 192, 192, 0.7);
-    width: 700px;
+
     height: 700px;
     justify-content: center;
     align-items: center;
+    padding: 10rem;
 
 }
 
-.stays__cards {
-    width: 700px;
-    height: 200px;
-}
+    .stays__cards {
+        width: 700px;
+        height: 200px;
+    }
